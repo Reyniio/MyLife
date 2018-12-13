@@ -58,6 +58,7 @@ footer, header, hgroup, menu, nav, section {
 	opacity: 0.8;
 	width: 300px;
 	height: 250px;
+	border: 1px solid blakc;
 }
 
 .details
