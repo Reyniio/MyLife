@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MyLife</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+ 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">	
+		<link rel="stylesheet" href="assets/css/swiper.css" />	
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+ 		
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>MyLife</strong></a>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+
+							<!-- Section -->
+
+							  <div class="swiper-container">
+   							 
+   							 <div class="swiper-wrapper" >
+      							
+      							<div class="swiper-slide"><label for="c1">
+										
+										<div class="imgBox" >
+											<img src="images/Tele.jpg" alt="Télé" class="imgInBox"> 
+										</div>
+										<div class="details" id="c1b">
+											<input class="checkBox" type="checkbox" id="c1" name="Télé" value="r" onclick="acheter(this)">											
+											<h3>Télé<br><span>Prix : ~100€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+      							
+      							<div class="swiper-slide"><label for="c2">
+										<div class="imgBox" >
+											<img src="images/table.jpeg" alt="Table" class="imgInBox"> 
+										</div>
+										<div class="details" id="c2b">
+											<input class="checkBox" type="checkbox" id="c2" name="Table Basse" value="r" onclick="acheter(this)">											
+											<h3>Table Basse<br><span>Prix : ~100€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+      							
+      							<div class="swiper-slide"><label for="c3">
+										<div class="imgBox" >
+											<img src="images/TableManger.jpeg" alt="Table A Manger" class="imgInBox"> 
+										</div>
+										<div class="details" id="c3b">
+											<input class="checkBox" type="checkbox" id="c3" name="Table Basse" value="r" onclick="acheter(this)">											
+											<h3>Table à Manger<br><span>Prix : ~100€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+      							
+      							 <div class="swiper-slide"><label for="c4">
+										<div class="imgBox" >
+											<img src="images/Chaise.jpg" alt="Chaise" class="imgInBox"> 
+										</div>
+										<div class="details" id="c4b">
+											<input class="checkBox" type="checkbox" id="c4" name="Chaise" value="r" onclick="acheter(this)">											
+											<h3>Chaise<br><span>Prix : ~100€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+      							
+      							 <div class="swiper-slide"><label for="c5">
+										<div class="imgBox" >
+											<img src="images/Buffet.jpg" alt="Buffet" class="imgInBox"> 
+										</div>
+										<div class="details" id="c5b">
+											<input class="checkBox" type="checkbox" id="c5" name="Buffet" value="r" onclick="acheter(this)">											
+											<h3>Buffet<br><span>Prix : ~100€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+      							
+      							 <div class="swiper-slide"><label for="c6">
+										<div class="imgBox" >
+											<img src="images/Canape.jpg" alt="Canapé" class="imgInBox"> 
+										</div>
+										<div class="details" id="c6b">
+											<input class="checkBox" type="checkbox" id="c6" name="Canapé" value="r" onclick="acheter(this)">											
+											<h3>Canapé<br><span>Prix : ~300€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+      							
+      							<div class="swiper-slide"><label for="c7">
+										<div class="imgBox" >
+											<img src="images/MeubleTV.jpg" alt="MeubleTV" class="imgInBox"> 
+										</div>
+										<div class="details" id="c7b">
+											<input class="checkBox" type="checkbox" id="c7" name="Canapé" value="r" onclick="acheter(this)">											
+											<h3>Meuble TV<br><span>Prix : ~100€</span></h3></label>	
+										</div>     							
+      							
+      							</div>
+    							 
+    							 </div>
+    							 
+    							 <div class="swiper-pagination"></div>
+							  
+							  </div>
+							<!-- Section -->
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Accueil</a></li>
+										<li><a href="generic.html">Mes Applis Java</a></li>
+										<li><a href="elements.html">Mes Sites Webs</a></li>
+										<li>
+											<span class="opener">Mes courses</span>
+											<ul>
+												<li><a href="#">Déco/Meubles</a></li>
+												<li><a href="#">Nourritures</a></li>
+												<li><a href="#">Nettoyages</a></li>
+												<li><a href="#">Divers</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Chat en ligne</a></li>
+										<li><a href="#">IA</a></li>
+										<li><a href="#">Mon Compte</a></li>
+										<li><a href="#">Paramètres</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+
+
+							<!-- Section -->
+
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; MyLife. All rights reserved.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/swiper.min.js"></script>
+			<script>
+   			var swiper = new Swiper('.swiper-container', {
+      		effect: 'coverflow',
+      		grabCursor: true,
+      		centeredSlides: true,
+      		slidesPerView: 'auto',
+      		coverflowEffect: {
+        			rotate: 10,
+        			stretch: 0,
+        			depth: 100,
+        			modifier: 2,
+        			slideShadows : false,
+      		},
+      		pagination: {
+        		el: '.swiper-pagination',
+      		},
+    		});
+  			</script>
+			<script type="text/javascript" >
+    		function acheter(check)
+    		{
+        		if(check.checked)
+        		{
+          		  document.getElementById(check.id+"b").style.backgroundColor = "green";
+          	}
+       		 else
+           		 document.getElementById(check.id+"b").style.backgroundColor = "white";
+    		}
+			</script>
+
+	</body>
+</html>
