@@ -58,7 +58,8 @@ footer, header, hgroup, menu, nav, section {
 	opacity: 0.8;
 	width: 300px;
 	height: 250px;
-	border: 1px solid blakc;
+	border: 1px solid black;
+	border-radius: 5px;
 }
 
 .details
